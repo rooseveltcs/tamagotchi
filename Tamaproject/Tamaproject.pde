@@ -5,7 +5,7 @@ Character tama;
 void setup(){
  background(255);
  img = loadImage("images.jpg"); 
- tama = new Character(4);
+ tama = new Character();
  size(500,500);
  smooth();
  font = createFont("Arial",16,true);
